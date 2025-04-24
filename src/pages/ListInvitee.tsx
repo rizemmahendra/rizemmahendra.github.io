@@ -119,11 +119,11 @@ const ListInvitee = (): JSX.Element => {
                     <td>{index + 1}</td>
                     <td>
                       <a
-                        href={`${window.location.origin}/graduation/${invitee.id}`}
+                        href={`${window.location.origin}/#/graduation/${invitee.id}`}
                         onClick={(e) =>
                           handleCopy(
                             e,
-                            `${window.location.origin}/graduation/${invitee.id}`,
+                            `${window.location.origin}/#/graduation/${invitee.id}`,
                           )
                         }
                       >
